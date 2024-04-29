@@ -47,10 +47,25 @@ function multiplicar($a, $b) {
     return $a * $b;
 }
 
+/**
+ * Función para dividir dos números.
+ *
+ * Esta función recibe dos números y devuelve su división.
+ *
+ * @param int $a El primer número.
+ * @param int $b El segundo número.
+ * @return float El resultado de La división de los dos números.
+ */
+function dividir($a, $b) {
+    return $a / $b;
+}
+
+
 // Ejemplo de uso de las funciones
 echo "La suma de 2 y 5 es: " . sumar(2, 5) . "\n";
 echo "La diferencia de 9 y 6 es: " . restar(9, 6) . "\n";
 echo "El producto de 4 y 5 es: " . multiplicar(4, 5) . "\n";
+echo "La división entre de 12 y 3 es: " . dividir(12, 3) . "\n";
 
 /**
  * Funcion interna que devuelve la versión de PHP en formato de cadena.
